@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gallery - Sudan Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px 40px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        nav {
+            margin-bottom: 20px;
+            background-color: #005f73;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1, h2 {
+            color: #005f73;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            max-width: 900px;
+        }
+        .gallery-image {
+            background-color: white;
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            color: #555;
+        }
+        .gallery-image img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <h1>Gallery</h1>
+    <h2>Image Gallery</h2>
+    <div class="gallery">
+        <div class="gallery-image">
+            <img src="assets/images/gallery/1.jpg" alt="Image 1" />
+            Famine Time
+        </div>
+        <div class="gallery-image">
+            <img src="assets/images/gallery/2.jpg" alt="Image 2" />
+            Revolutionary Days
+        </div>
+        <div class="gallery-image">
+            <img src="assets/images/gallery/3.jpg" alt="Image 3" />
+            Freedom Day
+        </div>
+        <div class="gallery-image">
+            <img src="assets/images/gallery/4.png" alt="Image 4" />
+            Streets of Sudan
+        </div>
+        <div class="gallery-image">
+            <img src="assets/images/gallery/5.jpg" alt="Image 5" />
+            Youth of Sudan
+        </div>
+        <div class="gallery-image">
+            <img src="assets/images/gallery/6.jpg" alt="Image 6" />
+            Sudan's health centers
+        </div>
+        <div class="gallery-image">
+            <img src="assets/images/gallery/7.jpg" alt="Image 7" />
+            Land of the Nile
+        </div>
+        <div class="gallery-image">
+            <img src="assets/images/gallery/8.jpg" alt="Image 8" />
+            Sudan's Desserts
+        </div>
+        <div class="gallery-image">
+            <img src="assets/images/gallery/9.jpg" alt="Image 9" />
+            Sudan's City
+        </div>
+    </div>
+
+    <h2>Audio Gallery</h2>
+    <div class="gallery">
+        <div class="gallery-item">
+            <audio controls>
+                <source src="assets/audio/gallery/1.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
+            لو طال الغياب
+        </div>
+        <div class="gallery-item">
+            <audio controls>
+                <source src="assets/audio/gallery/2.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
+            انا طالب لى رضاك
+        </div>
+        <div class="gallery-item">
+            <audio controls>
+                <source src="assets/audio/gallery/3.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
+            لو انت غلطان يا قمرنا
+        </div>
+        <div class="gallery-item">
+            <audio controls>
+                <source src="assets/audio/gallery/4.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
+            زمان كنا بنطل عليه
+        </div>
+        <div class="gallery-item">
+            <audio controls>
+                <source src="assets/audio/gallery/5.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
+            و عند الغروب انا بطراك
+        </div>
+        <div class="gallery-item">
+            <audio controls>
+                <source src="assets/audio/gallery/6.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
+            انا سوداني و افخور
+        </div>
+        <div class="gallery-item">
+            <audio controls>
+                <source src="assets/audio/gallery/7.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
+            يا الغريب عن ديارك
+        </div>
+        <div class="gallery-item">
+            <audio controls>
+                <source src="assets/audio/gallery/8.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
+            وقت يا مشرع السمحة
+        </div>
+        <div class="gallery-item">
+            <audio controls>
+                <source src="assets/audio/gallery/9.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
+            انا وطني السودان
+        </div>
+    </div>
+</body>
+</html>
